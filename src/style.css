@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+  width: 80%;
+  font-family: 'Lato', sans-serif;
+}
+
+#file-tree-container {
+  border: 1px solid black;
+  padding: 1rem;
+  background: center;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.node-container {
+  margin: 24px 8px;
+}
+
+ul {
+  padding-left: 32px;
+}
+
+.node-title {
+  font-weight: normal;
+  font-style: normal;
+  font-variant-caps: titling-caps;
+  margin-left: 4px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.selected-node {
+  background-color: aliceblue;
+  padding: 4px;
+}
+
+.selected-node > .node-title {
+  font-weight: 700;
+}
